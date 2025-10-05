@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:pilldispenserapp/guardian/complaint.dart';
+import 'package:pilldispenserapp/guardian/feedback.dart';
 import 'package:pilldispenserapp/guardian/login.dart';
 import 'package:pilldispenserapp/guardian/patient.dart';
 import 'package:pilldispenserapp/guardian/register.dart';
@@ -35,7 +37,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: viewpatientscreen()
+      home: feedbackscreen()
     );
   }
 }
